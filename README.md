@@ -6,10 +6,6 @@
 npm install @emotion/react @emotion/styled @mui/icons-material @mui/material highcharts highcharts-react-official react react-dom react-router-dom typescript
 ```
 
-## List of Dependencies
-
-### Main Dependencies:
-
 ```json
 "dependencies": {
   "@emotion/react": "^11.11.0",
@@ -22,14 +18,5 @@ npm install @emotion/react @emotion/styled @mui/icons-material @mui/material hig
   "react-dom": "^18.2.0",
   "react-router-dom": "^6.20.0",
   "typescript": "^4.9.5"
-}
-```
-
-### Dev Dependencies:
-
-```json
-"devDependencies": {
-  "@types/react": "^18.2.0",
-  "@types/react-dom": "^18.2.0"
 }
 ```
