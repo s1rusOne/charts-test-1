@@ -1,26 +1,14 @@
 # Project with MUI, Highcharts, and React Router
 
-## Installing Dependencies
-
-### Main Dependencies
-
-To install all required dependencies:
+### Dependencies
 
 ```bash
 npm install @emotion/react @emotion/styled @mui/icons-material @mui/material highcharts highcharts-react-official react react-dom react-router-dom typescript
 ```
 
-### Dev Dependencies
-
-To install only dev dependencies, use the command:
-
-```bash
-npm install --save-dev @types/react @types/react-dom
-```
-
 ## List of Dependencies
 
-### Main Dependencies (`dependencies`):
+### Main Dependencies:
 
 ```json
 "dependencies": {
@@ -37,7 +25,7 @@ npm install --save-dev @types/react @types/react-dom
 }
 ```
 
-### Dev Dependencies (`devDependencies`):
+### Dev Dependencies:
 
 ```json
 "devDependencies": {
