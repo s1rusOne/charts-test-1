@@ -46,7 +46,7 @@ const ChartModal: React.FC<ChartModalProps> = ({
     return (
         <Dialog open={open} onClose={onClose}>
             <DialogTitle>{chart ? "Edit chart" : "New chart"}</DialogTitle>
-            <DialogContent sx={{ width: 400 }}>
+            <DialogContent>
                 <TextField
                     fullWidth
                     label="name"
