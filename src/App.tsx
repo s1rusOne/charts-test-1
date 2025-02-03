@@ -40,7 +40,7 @@ const App: React.FC = () => {
     const handleAddChart = (chartData: Partial<ChartData>) => {
         const newChart: ChartData = {
             id: Date.now().toString(),
-            name: chartData.name || "New chart",
+            name: chartData.name || "New char",
             type: chartData.type || "line",
             color: chartData.color || "#1976d2",
             data: generateRandomData(dateRange.startDate, dateRange.endDate),
